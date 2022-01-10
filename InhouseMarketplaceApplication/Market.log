@@ -1,0 +1,307 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Tue Dec 21 10:43:21 IST 2021<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="http-nio-8082-exec-2 thread">http-nio-8082-exec-2</td>
+<td title="Level">INFO</td>
+<td title="com.cg.market.service.MarketServiceImpl category">com.cg.market.service.MarketServiceImpl</td>
+<td title="Message">Returning saved Employee:Employee [empId=45, empName=priya, deptName=emp, location=bihar]</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Tue Dec 21 12:00:55 IST 2021<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="http-nio-8082-exec-3 thread">http-nio-8082-exec-3</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.cg.market.service.MarketServiceImpl category">com.cg.market.service.MarketServiceImpl</td>
+<td title="Message">No user found for Id: priya</td>
+</tr>
+
+<tr>
+<td>321776</td>
+<td title="http-nio-8082-exec-8 thread">http-nio-8082-exec-8</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.cg.market.service.MarketServiceImpl category">com.cg.market.service.MarketServiceImpl</td>
+<td title="Message">No user found for Id: priya</td>
+</tr>
+
+<tr>
+<td>1147145</td>
+<td title="http-nio-8082-exec-9 thread">http-nio-8082-exec-9</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.cg.market.service.MarketServiceImpl category">com.cg.market.service.MarketServiceImpl</td>
+<td title="Message">No user found for Id: rahul</td>
+</tr>
+
+<tr>
+<td>2224123</td>
+<td title="http-nio-8082-exec-9 thread">http-nio-8082-exec-9</td>
+<td title="Level">INFO</td>
+<td title="com.cg.market.service.MarketServiceImpl category">com.cg.market.service.MarketServiceImpl</td>
+<td title="Message">Returning saved Employee:Employee [empId=1, empName=Prachi, deptName=java, location=Mumbai]</td>
+</tr>
+
+<tr>
+<td>2494223</td>
+<td title="http-nio-8082-exec-5 thread">http-nio-8082-exec-5</td>
+<td title="Level">INFO</td>
+<td title="com.cg.market.service.MarketServiceImpl category">com.cg.market.service.MarketServiceImpl</td>
+<td title="Message">Returning saved product : Product [prodId=2, title=Dell laptop, description=System, category=PC, price=56000.0, date=2021-12-21, employee=Employee [empId=1, empName=Prachi, deptName=java, location=Mumbai]]</td>
+</tr>
+
+<tr>
+<td>2868467</td>
+<td title="http-nio-8082-exec-9 thread">http-nio-8082-exec-9</td>
+<td title="Level">INFO</td>
+<td title="com.cg.market.service.MarketServiceImpl category">com.cg.market.service.MarketServiceImpl</td>
+<td title="Message">Returning saved offer: Offer [offerId=3, isAvailable=true, availableUpto=2022-09-21, prod=Product [prodId=2, title=Dell laptop, description=System, category=PC, price=56000.0, date=2021-12-21, employee=Employee [empId=1, empName=Prachi, deptName=java, location=Mumbai]]]</td>
+</tr>
+
+<tr>
+<td>3849916</td>
+<td title="http-nio-8082-exec-3 thread">http-nio-8082-exec-3</td>
+<td title="Level">INFO</td>
+<td title="com.cg.market.service.MarketServiceImpl category">com.cg.market.service.MarketServiceImpl</td>
+<td title="Message">Returning saved Employee:Employee [empId=4, empName=Roshini, deptName=HR, location=Bangalore]</td>
+</tr>
+
+<tr>
+<td>4017558</td>
+<td title="http-nio-8082-exec-8 thread">http-nio-8082-exec-8</td>
+<td title="Level">INFO</td>
+<td title="com.cg.market.service.MarketServiceImpl category">com.cg.market.service.MarketServiceImpl</td>
+<td title="Message">Proposal saved: Proposal [propId=5, proposal=PC, amount=56000.0, proposalDate=2021-12-21, isAccepted=true, emp=Employee [empId=4, empName=Roshini, deptName=HR, location=Bangalore], prod=Product [prodId=2, title=Dell laptop, description=System, category=PC, price=56000.0, date=2021-12-21, employee=Employee [empId=1, empName=Prachi, deptName=java, location=Mumbai]]]</td>
+</tr>
+
+<tr>
+<td>4801996</td>
+<td title="http-nio-8082-exec-9 thread">http-nio-8082-exec-9</td>
+<td title="Level">INFO</td>
+<td title="com.cg.market.service.MarketServiceImpl category">com.cg.market.service.MarketServiceImpl</td>
+<td title="Message">Returning saved Employee:Employee [empId=6, empName=Priya, deptName=CR, location=Bihar]</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Tue Dec 21 15:12:37 IST 2021<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.cg.market.service.MarketServiceImpl category">com.cg.market.service.MarketServiceImpl</td>
+<td title="Message">Proposal saved: Proposal [propId=7, proposal=Plz give, amount=200000.0, proposalDate=null, isAccepted=true, emp=null, prod=null]</td>
+</tr>
+
+<tr>
+<td>76</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.cg.market.service.MarketServiceImpl category">com.cg.market.service.MarketServiceImpl</td>
+<td title="Message">Returning saved Employee:Employee [empId=8, empName=Allu, deptName=tester, location=Bangalore]</td>
+</tr>
+
+<tr>
+<td>92</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.cg.market.service.MarketServiceImpl category">com.cg.market.service.MarketServiceImpl</td>
+<td title="Message">Employee FoundEmployee [empId=9, empName=Sachin, deptName=Tester, location=Hyderbad]</td>
+</tr>
+
+<tr>
+<td>105</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.cg.market.service.MarketServiceImpl category">com.cg.market.service.MarketServiceImpl</td>
+<td title="Message">Returning saved product : Product [prodId=10, title=Bike, description=very Good, category=Electronics, price=250.0, date=null, employee=null]</td>
+</tr>
+
+<tr>
+<td>129</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.cg.market.service.MarketServiceImpl category">com.cg.market.service.MarketServiceImpl</td>
+<td title="Message">Returning saved product : Product [prodId=11, title=Bike, description=Good, category=Vehicle, price=250000.0, date=null, employee=null]</td>
+</tr>
+
+<tr>
+<td>155</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.cg.market.service.MarketServiceImpl category">com.cg.market.service.MarketServiceImpl</td>
+<td title="Message">Product FoundProduct [prodId=12, title=Bike, description=Good, category=Vehicle, price=250000.0, date=null, employee=null]</td>
+</tr>
+
+<tr>
+<td>169</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.cg.market.service.MarketServiceImpl category">com.cg.market.service.MarketServiceImpl</td>
+<td title="Message">Proposal : Proposal [propId=13, proposal=Plz give, amount=200000.0, proposalDate=null, isAccepted=true, emp=null, prod=null]</td>
+</tr>
+
+<tr>
+<td>181</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.cg.market.service.MarketServiceImpl category">com.cg.market.service.MarketServiceImpl</td>
+<td title="Message">Proposal saved: Proposal [propId=14, proposal=Plz give, amount=200000.0, proposalDate=null, isAccepted=true, emp=null, prod=null]</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Wed Dec 22 15:40:58 IST 2021<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="http-nio-8082-exec-10 thread">http-nio-8082-exec-10</td>
+<td title="Level">INFO</td>
+<td title="com.cg.market.service.MarketServiceImpl category">com.cg.market.service.MarketServiceImpl</td>
+<td title="Message">Returning saved Employee:Employee [empId=15, empName=Priya, deptName=HR, location=Hyderabad]</td>
+</tr>
+
+<tr>
+<td>51053</td>
+<td title="http-nio-8082-exec-7 thread">http-nio-8082-exec-7</td>
+<td title="Level">INFO</td>
+<td title="com.cg.market.service.MarketServiceImpl category">com.cg.market.service.MarketServiceImpl</td>
+<td title="Message">Returning saved Employee:Employee [empId=16, empName=Rohan, deptName=HR, location=Mumbai]</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Dec 23 15:47:36 IST 2021<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="http-nio-8082-exec-1 thread">http-nio-8082-exec-1</td>
+<td title="Level">INFO</td>
+<td title="com.cg.market.service.MarketServiceImpl category">com.cg.market.service.MarketServiceImpl</td>
+<td title="Message">Returning saved Employee:Employee [empId=17, empName=Rohit, deptName=Maitainer, location=Bangalore]</td>
+</tr>
+
+<tr>
+<td>20227</td>
+<td title="http-nio-8082-exec-3 thread">http-nio-8082-exec-3</td>
+<td title="Level">INFO</td>
+<td title="com.cg.market.service.MarketServiceImpl category">com.cg.market.service.MarketServiceImpl</td>
+<td title="Message">Returning saved Employee:Employee [empId=18, empName=Rohit, deptName=Developer, location=Bangalore]</td>
+</tr>
+
+<tr>
+<td>84525</td>
+<td title="http-nio-8082-exec-5 thread">http-nio-8082-exec-5</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.cg.market.service.MarketServiceImpl category">com.cg.market.service.MarketServiceImpl</td>
+<td title="Message">Employee already exsits</td>
+</tr>
+
+<tr>
+<td>184058</td>
+<td title="http-nio-8082-exec-6 thread">http-nio-8082-exec-6</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.cg.market.service.MarketServiceImpl category">com.cg.market.service.MarketServiceImpl</td>
+<td title="Message">Employee already exsits</td>
+</tr>
