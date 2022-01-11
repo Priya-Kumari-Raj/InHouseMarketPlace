@@ -19,8 +19,9 @@ sourceCompatibility = '1.8'
 repositories {
     // Use jcenter for resolving dependencies.
     // You can declare any Maven/Ivy/file repository here.
-    mavenCentral()
+   
     jcenter()
+     mavenCentral()
 }
 
 dependencies {
