@@ -2,9 +2,10 @@ version: '3.9'
 services:
   app: 
     container_name: spring
-    build:
+    image: app-springboot-postgresql
+    build: ./
     ports:
-      - "89:80"
+      - "8082:8080"
     depends_on:
       - db_postgresql
 
@@ -13,6 +14,6 @@ services:
       ports:
         - "5432:5432"
       environment:
-        - POSTGRES_PASSWORD=priya
+        - POSTGRES_PASSWORD=Priya@777
         - POSTGRES_USER=postgres
         - POSTGRES_DB=postgres
