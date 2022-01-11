@@ -1,5 +1,5 @@
 FROM openjdk:8-jdk-alpine
-EXPOSE 8082:8082
 VOLUME /temp
-RUN gradlew build/libs*.jar spring.jar
-ENTRYPOINT ["java", "-jar", "spring.jar"]
+EXPOSE 8082
+ADD build/libs/springbootpostgresqldocker-0.0.1-SNAPSHOT.jar springbootpostgresqldocker.jar
+ENTRYPOINT ["java","-jar","/springbootpostgresqldocker.jar"]
