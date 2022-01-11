@@ -1,5 +1,5 @@
 FROM openjdk: 8-jdk-alpine
-EXPOSE 8080:8080
+EXPOSE 8082:8082
 VOLUME /temp
-RUN radlew build/libs*.jar spring.jar
-ENTERYPOINT ["java", "-jar", "spring.jar"]
+RUN gradlew build/libs*.jar spring.jar
+ENTRYPOINT ["java", "-jar", "spring.jar"]
